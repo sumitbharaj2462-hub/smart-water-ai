@@ -1,0 +1,59 @@
+{
+  "zones": {
+    "Central Delhi": {
+      "zone": "Central Delhi",
+      "status": "ok",
+      "n_observations": 1081,
+      "slope_per_day": -758.46,
+      "r_squared": 0.0112,
+      "p_value": 0.000506,
+      "trend_direction": "decreasing",
+      "rolling_30d_change_pct": -0.02,
+      "latest_value": 4812755988.0
+    },
+    "East Delhi": {
+      "zone": "East Delhi",
+      "status": "ok",
+      "n_observations": 1079,
+      "slope_per_day": -396.34,
+      "r_squared": 0.0032,
+      "p_value": 0.06464,
+      "trend_direction": "stable",
+      "rolling_30d_change_pct": -0.01,
+      "latest_value": 4814792873.0
+    },
+    "North Delhi": {
+      "zone": "North Delhi",
+      "status": "ok",
+      "n_observations": 1084,
+      "slope_per_day": -709.92,
+      "r_squared": 0.009,
+      "p_value": 0.001763,
+      "trend_direction": "decreasing",
+      "rolling_30d_change_pct": -0.01,
+      "latest_value": 4813936517.0
+    },
+    "South Delhi": {
+      "zone": "South Delhi",
+      "status": "ok",
+      "n_observations": 1086,
+      "slope_per_day": 140.39,
+      "r_squared": 0.0004,
+      "p_value": 0.496922,
+      "trend_direction": "stable",
+      "rolling_30d_change_pct": 0.07,
+      "latest_value": 4823319899.0
+    },
+    "West Delhi": {
+      "zone": "West Delhi",
+      "status": "ok",
+      "n_observations": 1079,
+      "slope_per_day": 1512.02,
+      "r_squared": 0.043,
+      "p_value": 0.0,
+      "trend_direction": "increasing",
+      "rolling_30d_change_pct": -0.04,
+      "latest_value": 4817326520.0
+    }
+  }
+}

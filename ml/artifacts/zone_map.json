@@ -1,0 +1,16 @@
+{
+  "zones": [
+    "Central Delhi",
+    "East Delhi",
+    "North Delhi",
+    "South Delhi",
+    "West Delhi"
+  ],
+  "zone_to_id": {
+    "Central Delhi": 0,
+    "East Delhi": 1,
+    "North Delhi": 2,
+    "South Delhi": 3,
+    "West Delhi": 4
+  }
+}

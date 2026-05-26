@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "DEPOT-MAIN",
+        "name": "Central Tanker Depot",
+        "asset_type": "tanker_depot",
+        "capacity_liters": 500000
+      },
+      "geometry": { "type": "Point", "coordinates": [77.21, 28.62] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "DEPOT-NORTH",
+        "name": "North Tanker Depot",
+        "asset_type": "tanker_depot",
+        "capacity_liters": 300000
+      },
+      "geometry": { "type": "Point", "coordinates": [77.20, 28.72] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "RSV-CTR-01",
+        "name": "Central Reservoir",
+        "asset_type": "reservoir",
+        "capacity_m3": 300000
+      },
+      "geometry": { "type": "Point", "coordinates": [77.22, 28.61] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "RSV-NORTH-01",
+        "name": "North Reservoir",
+        "asset_type": "reservoir",
+        "capacity_m3": 180000
+      },
+      "geometry": { "type": "Point", "coordinates": [77.18, 28.71] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "PUMP-EAST-01",
+        "name": "East Pump Station",
+        "asset_type": "pump_station",
+        "capacity_lpm": 5000
+      },
+      "geometry": { "type": "Point", "coordinates": [77.32, 28.64] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "HOSP-CTR-01",
+        "name": "Central Hospital",
+        "asset_type": "priority_site",
+        "priority": 1
+      },
+      "geometry": { "type": "Point", "coordinates": [77.23, 28.60] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "HOSP-NORTH-01",
+        "name": "North Emergency Hospital",
+        "asset_type": "priority_site",
+        "priority": 1
+      },
+      "geometry": { "type": "Point", "coordinates": [77.22, 28.70] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "GW-WEST-03",
+        "name": "West Groundwater Well",
+        "asset_type": "groundwater",
+        "zone": "west-delhi"
+      },
+      "geometry": { "type": "Point", "coordinates": [77.08, 28.64] }
+    }
+  ]
+}

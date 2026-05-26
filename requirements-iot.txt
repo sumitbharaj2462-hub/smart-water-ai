@@ -1,0 +1,10 @@
+# IoT pipeline dependencies (install alongside main project deps)
+paho-mqtt>=2.1.0
+confluent-kafka>=2.6.0
+jsonschema>=4.23.0
+PyYAML>=6.0.2
+psycopg2-binary>=2.9.9
+redis>=5.2.0
+fastapi>=0.115.0
+uvicorn>=0.32.0
+python-dotenv>=1.0.1

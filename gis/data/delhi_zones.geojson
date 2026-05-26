@@ -1,0 +1,80 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "north_delhi",
+        "name": "North Delhi",
+        "slug": "north-delhi",
+        "population": 3200000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [77.12, 28.75], [77.28, 28.75], [77.28, 28.68], [77.12, 28.68], [77.12, 28.75]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "south_delhi",
+        "name": "South Delhi",
+        "slug": "south-delhi",
+        "population": 2800000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [77.15, 28.58], [77.32, 28.58], [77.32, 28.48], [77.15, 28.48], [77.15, 28.58]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "east_delhi",
+        "name": "East Delhi",
+        "slug": "east-delhi",
+        "population": 1900000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [77.28, 28.70], [77.38, 28.70], [77.38, 28.58], [77.28, 28.58], [77.28, 28.70]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "west_delhi",
+        "name": "West Delhi",
+        "slug": "west-delhi",
+        "population": 2500000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [77.02, 28.70], [77.14, 28.70], [77.14, 28.58], [77.02, 28.58], [77.02, 28.70]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "central_delhi",
+        "name": "Central Delhi",
+        "slug": "central-delhi",
+        "population": 1500000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [77.18, 28.66], [77.26, 28.66], [77.26, 28.58], [77.18, 28.58], [77.18, 28.66]
+        ]]
+      }
+    }
+  ]
+}

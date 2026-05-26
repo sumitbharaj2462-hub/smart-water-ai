@@ -1,0 +1,11 @@
+# GIS mapping stack (Folium / Leaflet via streamlit-folium)
+folium>=0.16.0
+streamlit-folium>=0.18.0
+branca>=0.7.0
+pandas>=2.0.0
+numpy>=1.26.0
+
+# Shared with ML/dashboard
+streamlit>=1.32.0
+
+# Optional Mapbox: set environment variable MAPBOX_TOKEN
