@@ -1,9 +1,0 @@
-# AquaOps AI Assistant
-streamlit>=1.32.0
-pandas>=2.0.0
-
-# Optional: OpenAI-compatible LLM (install if using API)
-# openai>=1.30.0
-
-# Uses stdlib urllib for API calls — no extra deps required
-# Platform integration uses existing ml/, gis/, iot/ modules

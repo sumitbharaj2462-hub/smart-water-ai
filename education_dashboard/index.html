@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Global Education and Development Intelligence Dashboard</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">Education intelligence</p>
+        <h1>Global Education and Development Dashboard</h1>
+      </div>
+      <div class="header-actions">
+        <button id="resetFilters" class="icon-button" title="Reset filters" aria-label="Reset filters">↺</button>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <aside class="filters" aria-label="Dashboard filters">
+        <label>
+          Region
+          <select id="regionFilter"></select>
+        </label>
+        <label>
+          Income group
+          <select id="incomeFilter"></select>
+        </label>
+        <label>
+          Country
+          <select id="countryFilter"></select>
+        </label>
+        <label>
+          Metric
+          <select id="metricFilter"></select>
+        </label>
+        <label>
+          Compare with
+          <select id="compareFilter"></select>
+        </label>
+      </aside>
+
+      <section class="content">
+        <section class="kpi-grid" aria-label="Key indicators">
+          <article class="kpi">
+            <span>Selected value</span>
+            <strong id="selectedValue">-</strong>
+            <small id="selectedMeta">-</small>
+          </article>
+          <article class="kpi">
+            <span>Regional average</span>
+            <strong id="regionalValue">-</strong>
+            <small id="regionalMeta">-</small>
+          </article>
+          <article class="kpi">
+            <span>Available countries</span>
+            <strong id="countryCount">-</strong>
+            <small id="recordCount">-</small>
+          </article>
+          <article class="kpi">
+            <span>Latest year</span>
+            <strong id="latestYear">-</strong>
+            <small id="sourceName">-</small>
+          </article>
+        </section>
+
+        <section class="panel trend-panel">
+          <div class="panel-title">
+            <div>
+              <h2>Country Trend</h2>
+              <p id="trendSubtitle">-</p>
+            </div>
+          </div>
+          <div id="lineChart" class="chart" role="img" aria-label="Line chart"></div>
+        </section>
+
+        <section class="two-column">
+          <article class="panel">
+            <div class="panel-title">
+              <div>
+                <h2>Regional Snapshot</h2>
+                <p>Latest available country values, averaged by region.</p>
+              </div>
+            </div>
+            <div id="barChart" class="chart compact" role="img" aria-label="Bar chart"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-title">
+              <div>
+                <h2>Development Relationship</h2>
+                <p>Latest education metric vs GDP per capita.</p>
+              </div>
+            </div>
+            <div id="scatterChart" class="chart compact" role="img" aria-label="Scatter chart"></div>
+          </article>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">
+            <div>
+              <h2>Country Ranking</h2>
+              <p id="rankingSubtitle">-</p>
+            </div>
+            <input id="searchBox" type="search" placeholder="Search country">
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Country</th>
+                  <th>Region</th>
+                  <th>Income</th>
+                  <th>Year</th>
+                  <th class="numeric">Value</th>
+                </tr>
+              </thead>
+              <tbody id="rankingBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
