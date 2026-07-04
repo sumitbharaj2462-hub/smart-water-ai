@@ -4,11 +4,16 @@ Interactive Streamlit dashboard for exploring global education, health, technolo
 
 ## Live app
 
-Deploy on [Streamlit Community Cloud](https://share.streamlit.io):
+After deploying on [Streamlit Community Cloud](https://share.streamlit.io):
 
-- **Repository:** `sumitbharaj2462-hub/smart-water-ai`
-- **Main file:** `streamlit_dashboard/app.py`
-- **Branch:** `main`
+| Setting | Value |
+|--------|--------|
+| Repository | `sumitbharaj2462-hub/global-education-dashboard` |
+| Main file | `streamlit_dashboard/app.py` |
+| Branch | `main` |
+
+**One-click deploy:**  
+https://share.streamlit.io/deploy?repository=sumitbharaj2462-hub/global-education-dashboard&branch=main&mainModule=streamlit_dashboard/app.py&subdomain=global-education-dashboard
 
 ## Run locally
 

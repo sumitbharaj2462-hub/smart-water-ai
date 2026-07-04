@@ -28,7 +28,7 @@ from data_loader import (
 # ---------------------------------------------------------------------------
 
 st.set_page_config(
-    page_title="Education & Development Dashboard",
+    page_title="Global Education and Development Dashboard",
     page_icon="🌍",
     layout="wide",
     initial_sidebar_state="expanded",
